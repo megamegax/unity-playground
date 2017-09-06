@@ -4,25 +4,27 @@ using UnityEngine;
 
 public class CardGenerator : MonoBehaviour {
 
-	public GameObject card;
-
+	public List<GameObject> cards;
 	// Use this for initialization
 	void Start () {
-		
+		QualitySettings.antiAliasing = 2;
 		//card.AddComponent<Rigidbody>();
-		card.AddComponent<MeshFilter>();
-		card.AddComponent<BoxCollider>();
-		card.AddComponent<MeshRenderer>();	
-
+	
 		for (int i = 0; i < 5; i++) {
-			card.transform.position = new Vector3 (2.8f + i,0, 7.24f);		
+			var card = GameObject.CreatePrimitive (PrimitiveType.Cube);
+			cards.Add (card);
+			card.name="Card "+i;					
+			card.transform.position = new Vector3 (0f + (i*2f),-8, 10);	
+			card.transform.localScale = new Vector3 (1.5f, 1f, 0.01f);
+
 		//	card.transform.rotation = new Quaternion (0f, 0.1f * i, 0f);
-			Instantiate (card);
 		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		//transform.Rotate(Vector3.up * Time.deltaTime, Space.World);
+		for(int i = 0; i< cards.Count;i++){
+			cards[i].transform.Rotate(new Vector3(0,10,0) * Time.deltaTime, Space.World);
+		}
 	}
 }
