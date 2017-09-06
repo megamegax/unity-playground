@@ -13,7 +13,7 @@ namespace Cards
 			Texture2D tex = Resources.Load(pictureName) as Texture2D;	
 			card.GetComponent<Renderer>().material.mainTexture = tex;
 			card.transform.position = position;
-			//card.transform.localScale = new Vector3 (1.5f, 1f, 0.01f);
+			card.transform.localScale = new Vector3 (1.5f, 1f, 0.01f);
 
 		}
 
