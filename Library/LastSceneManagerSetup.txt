@@ -1,7 +1,0 @@
-sceneSetups:
-- path: Assets/VRSampleScenes/Scenes/MainMenu.unity
-  isLoaded: 1
-  isActive: 1
-- path: Assets/VRSampleScenes/Scenes/vr_the_champs1.unity
-  isLoaded: 0
-  isActive: 0
