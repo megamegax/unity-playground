@@ -42,6 +42,20 @@ namespace VRStandardAssets.Utils
 
         public float DoubleClickTime{ get { return m_DoubleClickTime; } }
 
+		void Start () {
+			MagnetSensor magnetSensor = FindObjectOfType<MagnetSensor> ();
+			UnityEngine.Debug.Log ("Start");
+			System.Console.WriteLine( "Hello" );
+			print ("StartPring\n");
+			Debug.Log ("DebugStart\n");
+			magnetSensor.OnCardboardTrigger += OnMagnetClicked;
+
+		}
+
+		private void OnMagnetClicked(){
+			UnityEngine.Debug.Log ("OnMagnetClicked");
+			OnDown ();
+		}
 
         private void Update()
         {
@@ -201,5 +215,6 @@ namespace VRStandardAssets.Utils
             OnDown = null;
             OnUp = null;
         }
+
     }
 }
