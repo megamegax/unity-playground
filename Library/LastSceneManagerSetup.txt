@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/VR2.unity
+- path: Assets/Scenes/vr_the_champs1.unity
   isLoaded: 1
   isActive: 1

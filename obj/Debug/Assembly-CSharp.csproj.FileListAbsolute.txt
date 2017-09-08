@@ -1,4 +1,3 @@
-C:\Users\mihaly_hunyady\Documents\VR2\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\mihaly_hunyady\Documents\VR2\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\mihaly_hunyady\Documents\VR2\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\mihaly_hunyady\Documents\VR2\Temp\bin\Debug\Google.ProtocolBuffers.dll
@@ -29,5 +28,6 @@ C:\Users\mihaly_hunyady\Documents\VR2\Temp\bin\Debug\nunit.framework.xml
 C:\Users\mihaly_hunyady\Documents\VR2\Temp\bin\Debug\UnityEngine.Timeline.xml
 C:\Users\mihaly_hunyady\Documents\VR2\Temp\bin\Debug\UnityEngine.Analytics.xml
 C:\Users\mihaly_hunyady\Documents\VR2\Temp\bin\Debug\UnityEngine.HoloLens.xml
+C:\Users\mihaly_hunyady\Documents\VR2\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\mihaly_hunyady\Documents\VR2\obj\Debug\Assembly-CSharp.dll
 C:\Users\mihaly_hunyady\Documents\VR2\obj\Debug\Assembly-CSharp.pdb
